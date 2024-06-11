@@ -9,7 +9,7 @@ export default function Navbar() {
                         <li><a className="nav-text" href="/Contact"><span className="font-link">CONTACT</span></a></li>
                     </div>
                 </div>
-                <div className="col-xl-1 col-lg-12">
+                <div className="col-xl-1 col-lg-8">
                     <div id="middle">
                         <a className="nav-name">LOREM IPSUM</a>
                     </div>
