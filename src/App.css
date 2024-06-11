@@ -51,17 +51,17 @@
   padding: none;
   font-weight: 600;
   margin: none;
-  font-size: 200px;
+  font-size: 100px;
   color: #1c1628;
   margin-bottom: -1%;
-  margin-top: 15%;
+  margin-top: 45%;
 }
 .header-small {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 400;
   margin: 0;
   padding: 0;
-  margin-bottom: 25%;
+  margin-bottom: 100%;
   color: #1c1628;
 }
 .home {
@@ -105,6 +105,7 @@ li {
 #middle {
   padding: none;
   margin-right: 5%;
+  margin-left: 5%;
 }
 .navbar {
   background-color: rgb(18, 14, 29);
@@ -143,4 +144,13 @@ li {
 .nav-text:active {
   border-bottom: 2px solid #d3ff96;
 }
-
+@media (min-width: 768px) {
+  .header {
+    font-size: 200px;
+    margin-top: 15%;
+  }
+  .header-small {
+    margin-bottom: 25%;
+    font-size: 40px;
+  }
+}

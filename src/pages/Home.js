@@ -4,7 +4,7 @@ export default function Home() {
         <div className="container-fluid">
             <div className='gradient'>
                 <div className='row'>
-                    <div className='col-sm-12'>
+                    <div className='col-12'>
                         <div className="home">
                             <p className="header"><span className="font-link"><a id="first">Lorem</a> Ipsum</span></p>
                             <p className="header-small"><span className="font-link">Lorem Ipsum</span></p>
