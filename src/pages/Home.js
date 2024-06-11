@@ -1,11 +1,15 @@
 import pic from '../img/anon_profile.jpg'
 export default function Home() {
     return (
-        <container className="container">
+        <div className="container-fluid">
             <div className='gradient'>
-                <div className="home">
-                    <p className="header"><span className="font-link"><a id="first">Lorem</a> Ipsum</span></p>
-                    <p className="header-small"><span className="font-link">Lorem Ipsum</span></p>
+                <div className='row'>
+                    <div className='col-sm-12'>
+                        <div className="home">
+                            <p className="header"><span className="font-link"><a id="first">Lorem</a> Ipsum</span></p>
+                            <p className="header-small"><span className="font-link">Lorem Ipsum</span></p>
+                        </div>
+                    </div>
                 </div>
                 <p className='home-body'>
                     {/* <img className="pic" src={ pic } alt="Headshot" /> */}
@@ -14,6 +18,6 @@ export default function Home() {
                         leo vel. Sed id semper risus in hendrerit gravida rutrum. At volutpat diam ut venenatis tellus in.</span></p>
                 </p>
             </div>
-        </container>
+        </div>
     );
 }
