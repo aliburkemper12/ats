@@ -1,25 +1,22 @@
+import pc from '../img/pc_transparent.png'
 export default function About() {
     return (
-        <container className="container text-black">
+        <div className="about-container">
             <div className="row">
                 <div className="col-lg-6">
                     <div className="about">
-                        <p className="about-head">Our Mission</p>
-                        <p className="about-text">plenty of words</p>
+                        <p className="about-head">OUR MISSION</p>
+                        <p className="about-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam nulla porttitor massa id neque aliquam vestibulum morbi blandit.
+                            A diam maecenas sed enim ut. Nunc lobortis mattis aliquam faucibus. Ut morbi tincidunt augue interdum velit euismod in. Ultrices tincidunt arcu non sodales neque sodales ut. Diam sollicitudin tempor id eu nisl nunc. Enim praesent elementum facilisis
+                            leo vel. Sed id semper risus in hendrerit gravida rutrum. At volutpat diam ut venenatis tellus in.
+                        </p>
                     </div>
                 </div>
                 <div className="col-lg-6 text-center">
-                    <div>pretty picture</div>
+                    <img className="pc" src={ pc } alt="pc"/>
                 </div>
             </div>
-            <div className="about">
-                <p className="about-head">What We Do</p>
-                <p className="about-text">So many things</p>
-            </div>
-            <div className="about">
-                <p className="about-head">Other</p>
-                <p className="about-text">Other</p>
-            </div>
-        </container>
+        </div>
     );
 }
